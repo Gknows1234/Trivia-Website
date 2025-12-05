@@ -4,63 +4,58 @@
       "id": "1",
       "title": "General Knowledge",
       "description": "Test your knowledge on a variety of general knowledge topics including history, geography, science, and more.",
+      "category": "General Knowledge",
       "timeLimit": 300,
-      "scorePerQuestion": 10,
       "questions": [
         {
-          "id": "q1",
-          "text": "What is the capital of France?",
+          "question": "What is the capital of France?",
           "options": [
-            { "id": "o1", "text": "London" },
-            { "id": "o2", "text": "Paris" },
-            { "id": "o3", "text": "Berlin" },
-            { "id": "o4", "text": "Madrid" }
+            "London",
+            "Paris",
+            "Berlin",
+            "Madrid"
           ],
-          "correctOptionIndex": 1
+          "correctAnswer": 1
         },
         {
-          "id": "q2",
-          "text": "Which planet is known as the Red Planet?",
+          "question": "Which planet is known as the Red Planet?",
           "options": [
-            { "id": "o1", "text": "Venus" },
-            { "id": "o2", "text": "Mars" },
-            { "id": "o3", "text": "Jupiter" },
-            { "id": "o4", "text": "Saturn" }
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
           ],
-          "correctOptionIndex": 1
+          "correctAnswer": 1
         },
         {
-          "id": "q3",
-          "text": "What is the largest ocean on Earth?",
+          "question": "What is the largest ocean on Earth?",
           "options": [
-            { "id": "o1", "text": "Atlantic Ocean" },
-            { "id": "o2", "text": "Indian Ocean" },
-            { "id": "o3", "text": "Pacific Ocean" },
-            { "id": "o4", "text": "Arctic Ocean" }
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
           ],
-          "correctOptionIndex": 2
+          "correctAnswer": 2
         },
         {
-          "id": "q4",
-          "text": "In what year did World War II end?",
+          "question": "In what year did World War II end?",
           "options": [
-            { "id": "o1", "text": "1943" },
-            { "id": "o2", "text": "1944" },
-            { "id": "o3", "text": "1945" },
-            { "id": "o4", "text": "1946" }
+            "1943",
+            "1944",
+            "1945",
+            "1946"
           ],
-          "correctOptionIndex": 2
+          "correctAnswer": 2
         },
         {
-          "id": "q5",
-          "text": "What is the smallest country in the world?",
+          "question": "What is the smallest country in the world?",
           "options": [
-            { "id": "o1", "text": "Monaco" },
-            { "id": "o2", "text": "Vatican City" },
-            { "id": "o3", "text": "San Marino" },
-            { "id": "o4", "text": "Liechtenstein" }
+            "Monaco",
+            "Vatican City",
+            "San Marino",
+            "Liechtenstein"
           ],
-          "correctOptionIndex": 1
+          "correctAnswer": 1
         }
       ]
     },
@@ -68,63 +63,58 @@
       "id": "2",
       "title": "Science Basics",
       "description": "Challenge yourself with fundamental science questions covering physics, chemistry, and biology.",
+      "category": "Science",
       "timeLimit": 300,
-      "scorePerQuestion": 10,
       "questions": [
         {
-          "id": "q1",
-          "text": "What is the chemical symbol for gold?",
+          "question": "What is the chemical symbol for gold?",
           "options": [
-            { "id": "o1", "text": "Go" },
-            { "id": "o2", "text": "Gd" },
-            { "id": "o3", "text": "Au" },
-            { "id": "o4", "text": "Ag" }
+            "Go",
+            "Gd",
+            "Au",
+            "Ag"
           ],
-          "correctOptionIndex": 2
+          "correctAnswer": 2
         },
         {
-          "id": "q2",
-          "text": "What is the speed of light?",
+          "question": "What is the speed of light?",
           "options": [
-            { "id": "o1", "text": "300,000 km/s" },
-            { "id": "o2", "text": "150,000 km/s" },
-            { "id": "o3", "text": "450,000 km/s" },
-            { "id": "o4", "text": "600,000 km/s" }
+            "300,000 km/s",
+            "150,000 km/s",
+            "450,000 km/s",
+            "600,000 km/s"
           ],
-          "correctOptionIndex": 0
+          "correctAnswer": 0
         },
         {
-          "id": "q3",
-          "text": "How many bones are in the human body?",
+          "question": "How many bones are in the human body?",
           "options": [
-            { "id": "o1", "text": "186" },
-            { "id": "o2", "text": "206" },
-            { "id": "o3", "text": "226" },
-            { "id": "o4", "text": "246" }
+            "186",
+            "206",
+            "226",
+            "246"
           ],
-          "correctOptionIndex": 1
+          "correctAnswer": 1
         },
         {
-          "id": "q4",
-          "text": "What is the powerhouse of the cell?",
+          "question": "What is the powerhouse of the cell?",
           "options": [
-            { "id": "o1", "text": "Nucleus" },
-            { "id": "o2", "text": "Mitochondria" },
-            { "id": "o3", "text": "Ribosome" },
-            { "id": "o4", "text": "Chloroplast" }
+            "Nucleus",
+            "Mitochondria",
+            "Ribosome",
+            "Chloroplast"
           ],
-          "correctOptionIndex": 1
+          "correctAnswer": 1
         },
         {
-          "id": "q5",
-          "text": "What is the most abundant element in the universe?",
+          "question": "What is the most abundant element in the universe?",
           "options": [
-            { "id": "o1", "text": "Oxygen" },
-            { "id": "o2", "text": "Helium" },
-            { "id": "o3", "text": "Hydrogen" },
-            { "id": "o4", "text": "Carbon" }
+            "Oxygen",
+            "Helium",
+            "Hydrogen",
+            "Carbon"
           ],
-          "correctOptionIndex": 2
+          "correctAnswer": 2
         }
       ]
     },
@@ -132,67 +122,199 @@
       "id": "3",
       "title": "Movies & Entertainment",
       "description": "Test your knowledge about movies, TV shows, actors, and entertainment industry facts.",
+      "category": "Entertainment",
       "timeLimit": 300,
-      "scorePerQuestion": 10,
       "questions": [
         {
-          "id": "q1",
-          "text": "Who directed the movie 'Inception'?",
+          "question": "Who directed the movie 'Inception'?",
           "options": [
-            { "id": "o1", "text": "Steven Spielberg" },
-            { "id": "o2", "text": "Christopher Nolan" },
-            { "id": "o3", "text": "James Cameron" },
-            { "id": "o4", "text": "Martin Scorsese" }
+            "Steven Spielberg",
+            "Christopher Nolan",
+            "James Cameron",
+            "Martin Scorsese"
           ],
-          "correctOptionIndex": 1
+          "correctAnswer": 1
         },
         {
-          "id": "q2",
-          "text": "In which year was the first 'Star Wars' movie released?",
+          "question": "In which year was the first 'Star Wars' movie released?",
           "options": [
-            { "id": "o1", "text": "1975" },
-            { "id": "o2", "text": "1977" },
-            { "id": "o3", "text": "1979" },
-            { "id": "o4", "text": "1981" }
+            "1975",
+            "1977",
+            "1979",
+            "1981"
           ],
-          "correctOptionIndex": 1
+          "correctAnswer": 1
         },
         {
-          "id": "q3",
-          "text": "Who played the character of Iron Man in the MCU?",
+          "question": "Who played the character of Iron Man in the MCU?",
           "options": [
-            { "id": "o1", "text": "Chris Evans" },
-            { "id": "o2", "text": "Mark Ruffalo" },
-            { "id": "o3", "text": "Robert Downey Jr." },
-            { "id": "o4", "text": "Chris Hemsworth" }
+            "Chris Evans",
+            "Mark Ruffalo",
+            "Robert Downey Jr.",
+            "Chris Hemsworth"
           ],
-          "correctOptionIndex": 2
+          "correctAnswer": 2
         },
         {
-          "id": "q4",
-          "text": "What is the highest-grossing movie of all time?",
+          "question": "What is the highest-grossing movie of all time?",
           "options": [
-            { "id": "o1", "text": "Avatar" },
-            { "id": "o2", "text": "Avengers: Endgame" },
-            { "id": "o3", "text": "Avatar: The Way of Water" },
-            { "id": "o4", "text": "Titanic" }
+            "Avatar",
+            "Avengers: Endgame",
+            "Avatar: The Way of Water",
+            "Titanic"
           ],
-          "correctOptionIndex": 2
+          "correctAnswer": 2
         },
         {
-          "id": "q5",
-          "text": "Which actor won the Academy Award for Best Actor in 2020?",
+          "question": "Which actor won the Academy Award for Best Actor in 2020?",
           "options": [
-            { "id": "o1", "text": "Joaquin Phoenix" },
-            { "id": "o2", "text": "Adam Driver" },
-            { "id": "o3", "text": "Christian Bale" },
-            { "id": "o4", "text": "Leonardo DiCaprio" }
+            "Joaquin Phoenix",
+            "Adam Driver",
+            "Christian Bale",
+            "Leonardo DiCaprio"
           ],
-          "correctOptionIndex": 0
+          "correctAnswer": 0
         }
       ]
+    },
+    {
+      "title": "lol",
+      "description": "fatto",
+      "category": "",
+      "timeLimit": 10,
+      "questions": [
+        {
+          "question": "fishy on me",
+          "options": [
+            "tiko",
+            "faze",
+            "prashant",
+            "mc stan"
+          ],
+          "correctAnswer": 0
+        }
+      ],
+      "id": "ayo97RR"
     }
   ],
-  "results": [],
+  "results": [
+    {
+      "quizId": "1",
+      "score": 3,
+      "totalQuestions": 5,
+      "percentage": 60,
+      "timestamp": "2025-11-27T02:55:39.238Z",
+      "answers": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "id": 3
+    },
+    {
+      "quizId": "1",
+      "score": 3,
+      "totalQuestions": 5,
+      "percentage": 60,
+      "timestamp": "2025-11-27T02:58:58.654Z",
+      "answers": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "id": 4
+    },
+    {
+      "quizId": "1",
+      "score": 2,
+      "totalQuestions": 5,
+      "percentage": 40,
+      "timestamp": "2025-11-29T05:50:57.897Z",
+      "answers": [
+        1,
+        0,
+        2,
+        1,
+        0
+      ],
+      "id": 7
+    },
+    {
+      "quizId": "2",
+      "score": 1,
+      "totalQuestions": 5,
+      "percentage": 20,
+      "timestamp": "2025-11-29T05:56:30.598Z",
+      "answers": [
+        2,
+        1,
+        2,
+        0,
+        3
+      ],
+      "id": 8
+    },
+    {
+      "quizId": "ayo97RR",
+      "score": 1,
+      "totalQuestions": 1,
+      "percentage": 100,
+      "timestamp": "2025-11-29T05:58:04.761Z",
+      "answers": [
+        0
+      ],
+      "id": 9
+    },
+    {
+      "quizId": "ayo97RR",
+      "score": 1,
+      "totalQuestions": 1,
+      "percentage": 100,
+      "timestamp": "2025-11-29T05:58:44.442Z",
+      "answers": [
+        0
+      ],
+      "id": 10
+    },
+    {
+      "quizId": "ayo97RR",
+      "score": 1,
+      "totalQuestions": 1,
+      "percentage": 100,
+      "timestamp": "2025-11-29T05:59:39.485Z",
+      "answers": [
+        0
+      ],
+      "id": 11
+    },
+    {
+      "quizId": "ayo97RR",
+      "score": 0,
+      "totalQuestions": 1,
+      "percentage": 0,
+      "timestamp": "2025-11-29T06:00:14.299Z",
+      "answers": [],
+      "id": 12
+    },
+    {
+      "quizId": "2",
+      "score": 1,
+      "totalQuestions": 5,
+      "percentage": 20,
+      "timestamp": "2025-12-02T05:38:39.873Z",
+      "answers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 13
+    }
+  ],
   "users": []
 }
