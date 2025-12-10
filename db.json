@@ -195,6 +195,35 @@
         }
       ],
       "id": "ayo97RR"
+    },
+    {
+      "title": "OK",
+      "description": "cool quiz",
+      "category": "f1",
+      "timeLimit": 300,
+      "questions": [
+        {
+          "question": "WHo is the 2024 f1 champion",
+          "options": [
+            "Lando",
+            "Max",
+            "Lewis",
+            "Gasly"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "WHo is the 2024 f1 champion",
+          "options": [
+            "Lando",
+            "Max",
+            "Lewis",
+            "Gasly"
+          ],
+          "correctAnswer": 0
+        }
+      ],
+      "id": "dCpg-WR"
     }
   ],
   "results": [
@@ -314,7 +343,64 @@
         0
       ],
       "id": 13
+    },
+    {
+      "quizId": "1",
+      "score": 0,
+      "totalQuestions": 5,
+      "percentage": 0,
+      "timestamp": "2025-12-07T17:34:18.071Z",
+      "answers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 14
+    },
+    {
+      "quizId": "1",
+      "score": 2,
+      "totalQuestions": 5,
+      "percentage": 40,
+      "timestamp": "2025-12-07T17:37:36.345Z",
+      "answers": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      "id": 15
+    },
+    {
+      "quizId": "dCpg-WR",
+      "score": 1,
+      "totalQuestions": 2,
+      "percentage": 50,
+      "timestamp": "2025-12-07T17:39:35.676Z",
+      "answers": [
+        1,
+        1
+      ],
+      "id": 16
     }
   ],
-  "users": []
+  "users": [
+    {
+      "name": "Yajnesh ",
+      "email": "andeyajnesh@gmail.com",
+      "password": "Akis.1234",
+      "createdAt": "2025-12-10T16:51:32.632Z",
+      "id": 1
+    },
+    {
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "password123",
+      "createdAt": "2025-12-10T16:51:51.070Z",
+      "id": 2
+    }
+  ]
 }

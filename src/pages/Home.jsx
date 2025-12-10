@@ -1,7 +1,13 @@
 import { useNavigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
 
 function Home() {
   const navigate = useNavigate()
+  const { user, logout } = useAuth()
+
+  const handleLogout = () => {
+    logout()
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center p-4">
@@ -10,6 +16,36 @@ function Home() {
         <p className="text-xl text-blue-100 mb-8">
           Challenge yourself with engaging quizzes across multiple topics!
         </p>
+
+        {/* User Status */}
+        {user ? (
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-6 border border-white/20">
+            <p className="text-white text-lg">
+              Welcome back, <span className="font-bold text-purple-200">{user.name}</span>! 👋
+            </p>
+            <button
+              onClick={handleLogout}
+              className="mt-2 text-sm text-blue-200 hover:text-white transition-colors"
+            >
+              Sign out
+            </button>
+          </div>
+        ) : (
+          <div className="flex gap-3 justify-center mb-6">
+            <button
+              onClick={() => navigate('/login')}
+              className="bg-white/20 backdrop-blur-sm text-white py-2 px-6 rounded-lg font-medium hover:bg-white/30 transition-all border border-white/30"
+            >
+              Sign In
+            </button>
+            <button
+              onClick={() => navigate('/register')}
+              className="bg-purple-500 text-white py-2 px-6 rounded-lg font-medium hover:bg-purple-600 transition-all"
+            >
+              Sign Up
+            </button>
+          </div>
+        )}
 
         <div className="space-y-4">
           <button
